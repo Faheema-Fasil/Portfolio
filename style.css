@@ -1,0 +1,145 @@
+
+body{
+    margin: 30px;
+    
+}
+nav{
+       position: sticky;
+    top: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    font-size: 20px;
+    background-color: rgb(172, 169, 169);
+    padding: 15px;
+ 
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    font-size: 44px;
+}
+.about{
+    width: 50%;
+ 
+}
+
+.about1{
+    margin: 100px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    box-shadow: 20px;
+    gap: 100px;
+    
+   
+}
+.about p{
+    margin-top: 50px;
+    
+}
+button{
+    margin-top: 20px;
+    padding: 13px;
+    background-color: rgb(253, 95, 95);
+    border: 0;
+    color: azure;
+    font-size: 20px;
+}
+
+
+.section1{
+
+ 
+    background-color: rgb(189, 233, 233);
+}
+.recent{
+    
+    display: flex;
+    justify-content: center;
+    gap: 900px;
+
+}
+.section2box{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+
+
+    
+}
+.section2{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+}
+.work{
+    margin: 100px;
+}
+.work1{
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid grey;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+.work1-dashboard{
+    width: fit-content;
+}
+.contact{
+    
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+
+}
+form{
+    
+    text-align: center;
+    padding: 3px;
+    
+}
+form input{
+    width: 400px;
+    height: 50px;
+}
+.contact1{
+    margin-top: 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+   background-color: rgb(188, 186, 186);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height: 100px;
+   padding: 30px;
+   margin-top: 20px;
+   gap: 30px;
+    
+}
+footer i{
+    padding-right: 30px;
+}
